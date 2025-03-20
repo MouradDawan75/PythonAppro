@@ -1,0 +1,54 @@
+>>>>>>>>>>>>> Nom du fichier: demo.txt
+ceci est le contenu du fichierceci est le contenu du fichierceci est le contenu du fichier
+ceci est le contenu du fichier
+ceci est le contenu du fichier
+ceci est le contenu du fichier
+ceci est le contenu du fichier
+ceci est le contenu du fichier
+ceci est le contenu du fichier
+ceci est le contenu du fichier
+ceci est le contenu du fichier
+ceci est le contenu du fichier
+ceci est le contenu du fichier
+ceci est le contenu du fichier
+ceci est le contenu du fichier
+ceci est le contenu du fichier
+ceci est le contenu du fichier
+ceci est le contenu du fichier
+ceci est le contenu du fichier
+ceci est le contenu du fichier
+ceci est le contenu du fichier
+ceci est le contenu du fichier
+ceci est le contenu du fichier
+ceci est le contenu du fichier
+ceci est le contenu du fichier
+>>>>>>>>>>>>> Nom du fichier: new.txt
+>>>>>>>>>>>>> Nom du fichier: demo.txt
+ceci est le contenu du fichierceci est le contenu du fichierceci est le contenu du fichier
+ceci est le contenu du fichier
+ceci est le contenu du fichier
+ceci est le contenu du fichier
+ceci est le contenu du fichier
+ceci est le contenu du fichier
+ceci est le contenu du fichier
+ceci est le contenu du fichier
+ceci est le contenu du fichier
+ceci est le contenu du fichier
+ceci est le contenu du fichier
+ceci est le contenu du fichier
+ceci est le contenu du fichier
+ceci est le contenu du fichier
+ceci est le contenu du fichier
+ceci est le contenu du fichier
+ceci est le contenu du fichier
+ceci est le contenu du fichier
+ceci est le contenu du fichier
+ceci est le contenu du fichier
+ceci est le contenu du fichier
+>>>>>>>>>>>>> Nom du fichier: test.txt
+contenu du fichier
+contenu du fichier
+
+>>>>>>>>>>>>> Nom du fichier: test.txt
+contenu du fichier
+contenu du fichier

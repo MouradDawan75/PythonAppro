@@ -80,3 +80,64 @@ ecriture_fichier_texte(chemin_fichier_test, 'contenu du fichier', mode_ajout=Tru
 
 contenu = lecture_fichier_texte(chemin_fichier_test)
 print(contenu)
+
+print(">>>>>>>>Module os:")
+
+# Get current working directory
+print(os.getcwd())
+
+# Création de répertoires:
+
+chemin_dossier_en_cours = os.path.dirname(__file__)
+chemin_nouveau_rep = os.path.join(chemin_dossier_en_cours, 'rep')
+
+if os.path.exists(chemin_nouveau_rep):
+    print('Dossier existant')
+else:
+    os.mkdir(chemin_nouveau_rep)
+    print('Dossier crée')
+
+
+print(">>>>>> Parcourir un répertoire:")
+
+lst = os.listdir(chemin_dossier_en_cours)
+
+for f in lst:
+    print(f)
+
+# Exo: lire tous les fichier .txt et sauvegarder le contenu dans un nouveau fichier new.txt
+# contenu de new.txt
+# >>>>>>>>>>>>>>> nom fichier lu
+# contenu
+
+contenu_final = ''
+
+for fichier in lst:
+
+    if fichier.endswith('.txt'):
+        chemin = os.path.join(chemin_dossier_en_cours, fichier)
+        contenu_final += '>>>>>>>>>>>>> Nom du fichier: '+fichier+'\n'+lecture_fichier_texte(chemin)+'\n'
+
+
+if contenu_final:
+    chemin_fichier_resultat = os.path.join(chemin_dossier_en_cours, 'new.txt')
+    ecriture_fichier_texte(chemin_fichier_resultat, contenu_final)
+
+else:
+    print('Aucun fichier .txt trouvé.')
+
+def check_permission(path):
+    if os.access(path, os.R_OK):
+        #appelle de la fct de lecture
+        print('lecture ok')
+
+    if os.access(path, os.W_OK):
+        #appelle de la fct d'écriture
+        print('écriture ok')
+
+
+print(os.stat(chemin_fichier_resultat))
+
+import subprocess
+
+subprocess.Popen(['powershell', 'script shell'])
