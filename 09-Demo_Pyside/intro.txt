@@ -1,0 +1,8 @@
+Qt est un framework pour créer des interfaces graphiques pour des applications desktop prévu initialement pour c++.
+
+Pour utiiser Qt dans un script Python, il faut installer un biding (module python).
+PyQt: nécessite une licence
+PySide: gratuit
+
+1- Installer PySide6 -> ajoutez un raccourcis vers le fichier Designer.exe
+2- Dans vs code ajoutez l'extension: Qt for Python

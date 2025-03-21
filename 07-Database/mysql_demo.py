@@ -10,9 +10,9 @@ cnx = mysql.connector.connect(
 
 cursor = cnx.cursor()
 
-params = (5,'n1', 'p1')
+params = ('n1', 'p1')
 try: 
-    cursor.execute("insert into empoyes(id,nom,prenom) values (?, ?, ?)", params)
+    cursor.execute("insert into empoyes values (null, %s, %s)", params)
     cnx.commit()
 except Exception as e:
     print(e)
